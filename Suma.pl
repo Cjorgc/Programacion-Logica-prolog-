@@ -1,2 +1,2 @@
-suma(0,0).
-suma(N,S):-N>0,S>0,Y is S-N,Z is N-2 , suma(Z,Y).
+suma(1,2).
+suma(N,S):- Z is N-1, suma(Z,W), S is 2*N+W.

@@ -1,3 +1,3 @@
-sacar(_,[],[]).
-sacar(1,[_|Q],Q).
-sacar([L|Q],R):-N is P-1,sacar(N,Q,J),append([L],J,R).
+sacar(0,X,X).
+sacar(1,[Cab|Col],Col).
+sacar(P,[Cab|Col],[Cab|W]):- Z is P-1,sacar(Z,Col,W).
