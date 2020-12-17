@@ -1,0 +1,3 @@
+gg(_g23A):-groso(X).
+
+groso():-'a'.

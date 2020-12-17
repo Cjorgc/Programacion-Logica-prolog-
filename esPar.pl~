@@ -1,0 +1,2 @@
+esPar(0).
+esPar(X):-Y is X-2,esPar(Y).

@@ -1,0 +1,2 @@
+predecesor([],[]).
+predecesor([C|Q],R):-Q is [C1|Q1],C1 >C , R is [C1|Qr],predecesor [Q1,Qr].

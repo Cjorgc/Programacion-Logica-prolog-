@@ -1,0 +1,8 @@
+intersec([],_,[]).
+intersec(_,[],[]).
+intersec([C|Q1],L2,L3):-not(pertenece(c,l2)),intersec(q1,l2,l3).
+intersec([c|q1],l2,l3):pertenece(c,l2),intersec(q1,l2,r),append ([c],r,l3).
+
+pertenece([],[]).
+pertenece(a,[a|_]).
+p
